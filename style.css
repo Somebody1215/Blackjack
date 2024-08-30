@@ -1,0 +1,36 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #2e2e2e; 
+    color: #fff; 
+    text-align: center; 
+}
+.menu, .game, .cheat-sheet { 
+    display: none; 
+}
+.menu.active, .game.active, .cheat-sheet.active { 
+    display: block; 
+}
+.card { 
+    display: inline-block; 
+    width: 50px; 
+    height: 75px; 
+    border: 1px solid #fff; 
+    margin: 5px; 
+}
+.hearts, .diamonds { 
+    color: red; 
+}
+.clubs, .spades { 
+    color: black; 
+}
+button { 
+    margin: 10px; 
+    padding: 10px; 
+    background-color: #444; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+}
+button:hover { 
+    background-color: #666; 
+}
